@@ -1,0 +1,9 @@
+{
+  "name": "cbor2",
+  "version": "2.0.1",
+  "description": "Encode and decode CBOR documents, with both easy mode, streaming mode, and SAX-style evented mode.",
+  "main": "Index.ts",
+  "author": "acetbug",
+  "license": "MIT",
+  "dependencies": {}
+}
