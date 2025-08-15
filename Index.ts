@@ -9,7 +9,6 @@
  * @module
  */
 
-import 'src/main/ts/types.ts';
 import { CBORContainer } from './src/main/ts/container';
 
 export type { DecodeStream, ValueGenerator } from './src/main/ts/decodeStream';

@@ -206,7 +206,7 @@ export function diagnose(
           ret.close = ')';
         } else {
           str += JSON.stringify(val); // Surrounds w/quotes and escapes
-          str += sized(MT.POS_INT, ai, TE.encode((val as string)).length, opts);
+          str += sized(MT.POS_INT, ai, TE.encodeInto((val as string)).length, opts);
         }
         break;
       case MT.ARRAY: {

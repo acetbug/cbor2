@@ -242,7 +242,7 @@ export class DecodeStream implements Sliceable {
         if (val === Infinity) {
           yield * this.#stream(mt, depth, prevOffset);
         } else {
-          yield [mt, ai, TD.decode(this.#read(val as number)), prevOffset, val as number];
+          yield [mt, ai, TD.decodeToString(this.#read(val as number)), prevOffset, val as number];
         }
         break;
       case MT.ARRAY:
